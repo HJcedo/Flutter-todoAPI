@@ -68,3 +68,12 @@ O **Flutter Todo** é um aplicativo simples e prático para gerenciar suas taref
 - As tarefas são salvas de forma segura no servidor.
 - Você pode sair e entrar na sua conta a qualquer momento.
 - O app também guarda preferências localmente no dispositivo.
+
+### Para a documentação técnica do projeto, acesse: [docs/flutter_doc.md](/docs/flutter_doc.md)
+
+
+
+
+
+
+
