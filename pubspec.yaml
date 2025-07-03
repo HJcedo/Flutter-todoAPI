@@ -1,0 +1,31 @@
+name: flutter_todo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter # SDK principal do Flutter, necessário em qualquer app
+  cupertino_icons: ^1.0.8 # Ícones estilo iOS (Cupertino)
+  material_color_utilities: ^0.11.1 # Utilitários para manipulação de cores no padrão Material
+  dio: ^5.8.0+1 # Cliente HTTP avançado, usado para requisições à API
+  go_router: ^15.2.4 # Gerenciamento de rotas e navegação de forma declarativa
+  shared_preferences: ^2.5.3 # Armazena dados simples localmente (cache, preferências)
+  json_annotation: ^4.9.0 # Anotações para gerar código de serialização JSON
+  path: ^1.8.3 # Manipulação de caminhos de arquivos e diretórios
+  mime: ^1.0.4 # Identificação de tipos MIME (útil ao enviar arquivos)
+  image_picker: ^1.1.2 # Permite capturar imagens da câmera ou galeria
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Framework de testes unitários e widget tests
+  flutter_lints: ^5.0.0 # Conjunto de regras de lint recomendadas (boas práticas)
+  build_runner: ^2.4.6 # Ferramenta que executa geração de código automático
+  json_serializable: ^6.9.5 # Gera código para conversão entre JSON e classes Dart
+
+flutter:
+  uses-material-design: true # Inclui fontes e ícones padrão do Material Design
